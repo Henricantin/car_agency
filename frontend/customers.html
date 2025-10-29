@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Carros - Clientes</title>
+</head>
+<body>
+    <h1>Adicionar Clientes</h1>
+
+    <form action="../backend/customers/create_customers.php" method="post">
+        <input type="text" name="name" placeholder="Nome" required><br>
+        <input type="email" name="email" placeholder="E-mail" required><br>
+        <input type="text" name="phone" placeholder="Telefone" required><br>
+        <input type="text" name="address" placeholder="Endereço" required><br>
+
+        <button type="submit">Adicionar Cliente</button>
+    </form>
+
+    <h2>Lista de Clientes</h2>
+    <a href="../backend/customers/list_customers.php">Visualizar</a>
+</body>
+</html>
